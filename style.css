@@ -1,137 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 
-body{
-background-color: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(190,209,231,1) 100%);
+body {
+  background-color: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(190, 209, 231, 1) 100%);
 }
 
 .card {
-    display: flex;
-    margin: auto;
-    height: 600px;
-    width: 400px;
-    object-fit: contain;
-    border-radius: 25px;
-    position: relative;
-    padding-top: 100px;
-    right: 2px;
- 
+  display: flex;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  border-radius: 25px;
+  position: relative;
+  right: 4px;
+  top: 150px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  opacity: 0.9;
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
 }
 
 .card2 {
-    display:flex;
-    position:relative;
-    object-fit: contain;
-    height: 600px;
-    width: 400px;
-    padding-top: 104px;
-    padding-left: 120px;
-    bottom: 707px;
-    
+  display: flex;
+  position: relative;
+  object-fit: contain;
+  border-radius: 25px;
+  height: 400px;
+  width: 400px;
+  bottom: 250px;
+  left: 100px;
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card2:hover {
+  opacity: 0.9;
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
 }
 
 .card3 {
-    display:flex;
-    position:relative;
-    object-fit: contain;
-    height: 600px;
-    width: 400px;
-    padding-bottom: 695px;
-    left: 1374px;
-    bottom: 1301px;
-    
+  display: flex;
+  position: relative;
+  object-fit: contain;
+  border-radius: 25px;
+  height: 5px;
+  width: 400px;
+  padding-bottom: 600px;
+  left: 1374px;
+  bottom: 650px;
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
-.image{
-    border-radius: 25px;
-    box-shadow: 0 0 20px rgba(0,0,0.2);
-    -webkit-transform: scale(1);
-	  transform: scale(1);
-	  -webkit-transition: .3s ease-in-out;
-	  transition: .3s ease-in-out;
+.card3:hover {
+  opacity: 0.9;
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
 }
 
-.image:hover{
-  Opacity: 0.90;
-  -webkit-transform: scale(1.0);
-	transform: scale(1.1);
+.image {
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0.2);
 }
 
-.image2{
-    position: absolute;
-    border-radius: 25px;
-    box-shadow: 0 0 20px rgba(0,0,0.2);
-    left: 120px;
-    top: 108px;
-    -webkit-transform: scale(1);
-	  transform: scale(1);
-	  -webkit-transition: .3s ease-in-out;
-	  transition: .3s ease-in-out;
-    
+.image2 {
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0.2);
+  top: 0 px;
 }
 
-.image2:hover{
-  Opacity: 0.90;
-  -webkit-transform: scale(1.0);
-	transform: scale(1.1);
+.image3 {
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0.2);
 }
 
-.image3{
-    position: absolute;
-    border-radius: 25px;
-    box-shadow: 0 0 20px rgba(0,0,0.2);
-    right: 5px;
-    bottom: 693px;
-    -webkit-transform: scale(1);
-	  transform: scale(1);
-	  -webkit-transition: .3s ease-in-out;
-	  transition: .3s ease-in-out;
-    
-}
-
-.image3:hover{
-  Opacity: 0.90;
-  -webkit-transform: scale(1.0);
-	transform: scale(1.1);
-}
-
-.text1{
+.text1 {
   position: absolute;
   padding-left: 10px;
   font-family: 'Karla', sans-serif;
-  
 }
 
-.text2{
-    position: absolute;
-    padding-top: 90px;
-    padding-left: 10px;
-    font-family: 'Karla', sans-serif;
-    font-weight:bold;
-    
+.text2 {
+  position: absolute;
+  padding-top: 90px;
+  padding-left: 10px;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
 }
 
-.text3{
-    position:relative;
-    padding-top: 90px;
-    padding-left: 10px;
-    font-family: 'Karla', sans-serif;
-    font-weight:bold;
+.text3 {
+  position: relative;
+  padding-top: 90px;
+  padding-left: 10px;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
 }
 
-.TopBar{
-  top:0px;
-  left:0px;
-  right: 0px;
-  display:block;
-  position:fixed;
-  background-color:#34495E;
-  z-index: 5
-  
+.TopBar {
+  top: 0 px;
+  left: 0 px;
+  right: 0 px;
+  display: block;
+  position: fixed;
+  background-color: #34495e;
+  z-index: 5;
 }
 
-.Title{
- font-family: 'Karla', sans-serif;
- font-weight: bold;
- 
+.Title {
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+}
+
+#clock {
+  font: small-caps lighter 40px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  text-align: left;
+  top: 170px;
+  right: 20px;
+  width: 65%;
+  color: black;
+  border-left: 3px solid #ed1f24;
+  padding: 20px;
 }
